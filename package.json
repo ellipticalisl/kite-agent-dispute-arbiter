@@ -1,0 +1,30 @@
+{
+  "name": "@kiteai/agent-dispute-arbiter",
+  "version": "1.0.0",
+  "description": "Multi-Agent optimistic dispute arbitration & x402 escrow slashing mechanism on Kite Chain",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "kiteai",
+    "dispute-arbitration",
+    "agent-economy",
+    "x402",
+    "escrow-slashing",
+    "web3"
+  ],
+  "author": "ellipticalisl",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "viem": "^2.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "typescript": "^5.5.2",
+    "vitest": "^1.6.0"
+  }
+}
